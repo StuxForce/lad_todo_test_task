@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Решение тестового задания для поступающих на бесплатный курс по React</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./css/iconmoon.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+
+	<div id="pauseArea" class="pauseArea">
+		<div>
+			<h1>Пауза</h1>
+			<h4>Отдохните немного от повседневной суеты...</h4>
+			<h5 id="pauseTimer">00:00:00</h5>
+		</div>
+	</div>
+
+	<div class="container bd-content">
+
+		<h1>Решение тестового задания для поступающих на бесплатный курс по React</h1>
+		<div class="alert alert-light">
+
+			<div class="row">
+				<div class="col">
+					<h5>Добавьте новую задачу:</h5>
+					<div class="row">
+						<div class="col">
+
+							<div class="input-group">
+								<input id="inputField" class="form-control" type="text"
+									placeholder="Что Вы хотите сделать?" aria-describedby="inputHelpBlock" autofocus>
+								<div class="input-group-append">
+									<button id="addBtn" type="button" class="btn btn-success input-group-text">
+										<span class="icon-plus"></span>
+									</button>
+								</div>
+							</div>
+							<small id="inputHelpBlock" class="form-text text-muted">
+								Введите задачу и нажмите кнопку + или клавишу Enter
+							</small>
+
+						</div>
+					</div>
+					<hr>
+					<h5>Запланированные задачи:</h5>
+				</div>
+			</div>
+
+			<div id="todoArea">
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="./js/jquery-3.2.1.slim.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/todo.js"></script>
+
+</body>
+
+</html>
